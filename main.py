@@ -6,7 +6,7 @@ def sum_to(n):
    sum += num
   return sum
 
-print(sum_to(6))
+print(f'Exercise 1: {sum_to(6)}')
 
 # Exercise 2:
 
@@ -17,4 +17,5 @@ def largest(list):
         largestNumber = num
     return largestNumber
 
-print(largest([10, 4, 2, 231, 91, 54]))
+print(f'Exercise 2: {largest([10, 4, 2, 231, 91, 54])}')
+

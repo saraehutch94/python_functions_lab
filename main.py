@@ -19,3 +19,17 @@ def largest(list):
 
 print(f'Exercise 2: {largest([10, 4, 2, 231, 91, 54])}')
 
+# Exercise 3:
+
+def occurances(string1, string2):
+  second_string_length = len(string2)
+  count = 0
+
+  for index, letter in enumerate(string1):
+    if(string1[index:index+second_string_length]) == string2:
+      count += 1
+
+  return count
+
+print(f'Exercise 3: {occurances("fleep floop", "fl")}')
+

@@ -33,3 +33,12 @@ def occurances(string1, string2):
 
 print(f'Exercise 3: {occurances("fleep floop", "fl")}')
 
+# Exercise 4:
+
+def product(*args):
+  product = 1
+  for arg in args:
+    product *= arg
+  return product
+
+print(f'Exercose 4: {product(4, 0.5, 5)}')
